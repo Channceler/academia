@@ -1,0 +1,16 @@
+target/
+
+# Banco H2 local e arquivos temporarios
+data/
+*.mv.db
+*.trace.db
+
+# Arquivos de IDE
+.idea/
+*.iml
+.vscode/
+
+# Arquivos temporarios do sistema
+*.log
+.DS_Store
+Thumbs.db

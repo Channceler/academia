@@ -23,6 +23,8 @@ java -jar target/gestao-academia-1.0.0.jar
 
 O banco local é criado em `data/academia.mv.db`. Na primeira inicialização, o sistema carrega exemplos de aluno, plano, professor, mensalidade pendente, treino e avaliação para facilitar a demonstração.
 
+O banco H2 e seu console são destinados somente à demonstração e ao uso local. Não use essa configuração para armazenar dados reais ou em um ambiente público.
+
 ## Módulos e recursos
 
 - **Alunos:** cadastro, consulta, edição e exclusão. Ao excluir um aluno, as mensalidades, fichas e avaliações relacionadas também são removidas.
